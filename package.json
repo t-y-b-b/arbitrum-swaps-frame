@@ -1,0 +1,39 @@
+{
+  "name": "frame",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "next lint",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@lifi/sdk": "^2.5.2",
+    "@neynar/nodejs-sdk": "^1.20.1",
+    "@types/node-cache": "^4.2.5",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.4.2",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.20.14",
+    "drizzle-orm": "^0.30.8",
+    "ethers": "^6.12.0",
+    "frog": "^0.11.5",
+    "hono": "4.2.4",
+    "next": "^14.2.3",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "postgres": "^3.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  }
+}
