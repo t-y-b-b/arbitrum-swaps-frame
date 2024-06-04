@@ -39,9 +39,3 @@ NEYNAR_API_KEY="your_neynar_api_key"
 NEYNAR_REDASH_API_KEY="your_neynar_redash_api_key"
 API_KEY_COINGECKO="your_coingecko_api_key"
 ```
-
-The secrets can be attained via the pulumi cli:
-
-```sh
-pulumi config --show-secrets --stack dev
-```
